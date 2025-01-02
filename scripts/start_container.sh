@@ -5,4 +5,4 @@ set -e
 docker pull ebotsmith/hotel-app:latest
 
 # Run the Docker image as a container
-docker run -dit -p 80:80 ebotsmith/hotel-app
+docker run -dit -p 80:80 ebotsmith/hotel-app:latest
