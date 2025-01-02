@@ -5,4 +5,4 @@ set -e
 docker pull ebotsmith/hotel-app:latest
 
 # Run the Docker image as a container
-docker run -p 5990:5000 ebotsmith/hotel-app:latest
+docker run -p 5000:5000 ebotsmith/hotel-app:latest
